@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+whitelist = "AwYg8PstkmQKpYhXFFhLb7x2JVv4my7ufetX4any3xtT"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/sauravfouzdar/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
